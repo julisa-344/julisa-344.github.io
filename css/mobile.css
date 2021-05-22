@@ -1,0 +1,16 @@
+@media (max-width: 1208px) {
+
+    main {
+        padding: 50px
+    }
+    .main-contain_mobile {
+        grid-template: auto / repeat(2 , 1fr);
+    }
+    .header-contain_second ul li {
+    font-size: 1.8rem;
+    padding: 4px 4px;
+    border: 1px solid var(--red);
+    margin-right: 10px;
+    border-radius: 10px;
+}
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> VAE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500&family=Sarabun:wght@100;200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/css_grid.css">
+    <!-- name 
+        font-family: 'Merriweather Sans', sans-serif;
+        font-family: 'Sarabun', sans-serif; -->
+</head>
+<body>
+    <header class="animate__animated animate__fadeInRight">
+        <section class="header-contain_first">
+            <ul class="header social">
+                <li><a href="" class="social fb"><img src="./asset/icon/facebook.svg" alt="fb"></a></li>
+                <li><a href="" class="social ig"><img src="./asset/icon/instagram.svg" alt="ig"></a></li>
+                <li><a href="" class="social wsp"><img src="./asset/icon/whatsapp.svg" alt="wsp"></a></li>
+            </ul>
+            <h1>VAE</h1>
+            <ul class="header user">
+                <li><a href="" class="social person"><img src="./asset/icon/user.svg" alt="user"></a></li>
+                <li><a href="" class="social heart"><img src="./asset/icon/like.svg" alt="heart"></a></li>
+                <li><a href="" class="social shop"><img src="./asset/icon/shopping-cart.svg" alt="bag"></a></li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <section class="container_ventas">
+            <section class="venta_images">
+                <img src="./asset/image/mobile3.png" alt="celular elegido">
+            </section>
+            <section class="venta_description">
+                <h2 class="title">Galaxy A21s</h2>
+                <p>Unidades disponibles : Más de 10 unidades disponibles</p>
+                <div>
+                    Hasta 12 cuotas sin interés pagando con tus tarjetas de crédito BBVA  
+                </div>
+                <div>
+                    Envío gratis a todo el Perú por compras mayores a $200
+                </div>
+                <div>
+                    Este producto cuentacon 12 meses de garantía 
+                </div>
+                <div>
+                    ¿Quieressaber más sobre este producto?
+                    <br> Escribenos por Whatsapp
+                </div>
+                <p>Precio del producto</p>
+                <h3>
+                    <span>$799</span> <br>
+                    Hasta 12 cuotas sin intereses de S/ 66.58
+                </h3>
+            </section>
+        </section>
+        <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZVLNXV894N68G" method="post">
+            <input type="hidden" name="first_name" value="John">
+            <input type="hidden" name="night_phone_a" value="610">
+              <input type="hidden" name="mail" value="jdoe@zyzzyu.com">
+            <label for="nombre">Nombre</label>
+            <br>
+            <input type="text" placeholder="hola" id="name" name="first_name" class="data">
+            <br>
+            <label for="mail">Mail</label>
+            <br>
+            <input type="email" placeholder="example@correo.com" id="mail" name="email" class="data">
+            <br>
+            <label for="phone">phone</label>
+            <br>
+            <input type="number" id="phone" name="night_phone_a" maxlength="10" class="data">
+            <br>
+            <input type="submit" class="main_button" name="submit" value="¡Quiero mi gatito!">
+        </form>
+    </main>
+</body>
+</html>
